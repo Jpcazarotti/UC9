@@ -31,7 +31,7 @@ class DBConexao
     public static function getConexao()
     {
         if(!self::$instance){
-            self::$instance = new DBConexao();
+            self::$instance = new DBConexao(); 
         }
         return self::$instance->conx;
     }
