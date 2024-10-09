@@ -1,0 +1,24 @@
+<?php
+
+class UsuarioController {
+
+    public function index()
+    {
+        // Inserir SQL
+    }
+
+    public function create()
+    {
+        // Inserir SQL
+    }
+
+    public function edit($id)
+    {
+        // Inserir SQL
+    }
+
+    public function delete($id)
+    {
+        // Inserir SQL
+    }
+}

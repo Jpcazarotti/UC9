@@ -1,0 +1,30 @@
+<?php
+require_once 'DBConexao.php';
+
+class UsuarioModel {
+
+    public function getAllUsuarios()
+    {
+        // Inserir SQL
+    }
+
+    public function getUsuarioById($id)
+    {
+        // Inserir SQL
+    }
+
+    public function createUsuario($dados)
+    {
+        // Inserir SQL
+    }
+
+    public function updateUsuario($id, $dados)
+    {
+        // Inserir SQL
+    }
+
+    public function deleteUsuario($id)
+    {
+        // Inserir SQL
+    }
+}

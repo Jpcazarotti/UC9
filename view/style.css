@@ -1,0 +1,371 @@
+:root {
+    --primaria: #3157e0;
+    --secundaria: #49c0dc;
+    --texto: #2f2f2f;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  body {
+    font-family: "Open Sans", sans-serif;
+    color: var(--texto);
+  }
+  
+  #cabecalho {
+    background: radial-gradient(circle, #49c0dc, #1a7488, #075769);
+    height: 90px;
+    padding: 11px;
+    border: 1px solid #075769;
+  }
+  
+  #logo {
+    margin-left: -210px;
+    text-decoration: none;
+    margin-top: -26px;
+  }
+  
+  #menu {
+    display: flex;
+    margin-inline-end: -150px;
+    margin-left: auto;
+  }
+  
+  #menu ul {
+    display: flex;
+    position: relative;
+    gap: 20px;
+    align-items: end;
+    font-size: 19px;
+    line-height: 70px;
+  }
+  
+  #menu ul li a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 10px 13px;
+    border-radius: 16px;
+  }
+  
+  #menu ul li a:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+  
+  #banner,
+  #bannertwo {
+    position: relative;
+    background: url(img/cachoeira.jpg) no-repeat;
+    background-size: cover;
+    height: 900px;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+  }
+  
+  #banner::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  #bannertwo::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+  }
+  
+  .texto_banner {
+    content: "";
+    position: absolute;
+    top: 140px;
+    height: 45%;
+    z-index: 2;
+  }
+  
+  .texto_banner_two {
+    content: "";
+    position: absolute;
+    top: 160px;
+    z-index: 2;
+    font-size: 50px;
+  }
+  
+  .texto_banner_three {
+    content: "";
+    position: absolute;
+    top: 180px;
+    z-index: 2;
+  }
+  
+  #bem_vindo {
+    font-weight: 500;
+  }
+  
+  #sig_cam {
+    font-weight: 400;
+  }
+  
+  #objetivo {
+    font-weight: 400;
+    font-size: 18px;
+  }
+  
+  #textsn {
+    background-color: rgba(73, 192, 220, 0.5);
+    margin: 90px 0px;
+  }
+  
+  #textsnd {
+    margin: 30px 0px;
+    font-weight: 600;
+  }
+  
+  #onebloco {
+    background-color: rgba(73, 192, 220, 0.3);
+    margin-top: 60px;
+  }
+  
+  #n_a {
+    display: flex;
+    color: white;
+    background-color: rgba(49, 87, 224, 0.8);
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  #text_na {
+    padding: 10px;
+  }
+  
+  .nate {
+    padding: 5px 15px;
+  }
+  
+  .h3na {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  .pna {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  #twobloco {
+    background-color: rgba(73, 192, 220, 0.3);
+    margin: 60px 0px;
+  }
+  
+  .rows {
+    padding: 45px;
+    align-items: center;
+  }
+  
+  .textinhos {
+    font-size: 19px;
+    font-weight: 500;
+    margin: 0px 145px;
+  }
+  
+  #botoes {
+    background-color: rgba(49, 87, 224, 0.4);
+    width: 100%;
+    min-height: 400px;
+    margin-top: 70px;
+  }
+  
+  #botoes_aten button {
+    padding: 0px 60px;
+  }
+  
+  #rowonline {
+    padding-top: 7px;
+  }
+  
+  #rowpresencial {
+    padding-bottom: 30px;
+  }
+  
+  .backColor_online {
+    background: none;
+    border: none;
+  }
+  
+  .bot {
+    margin-top: 70px;
+  }
+  
+  .bot h5 {
+    color: white;
+    font-size: 400;
+    margin-bottom: 15px;
+  }
+  
+  .bt_img {
+    border-radius: 30px;
+  }
+  
+  .btn_text a {
+    color: var(--texto);
+    text-decoration: none;
+  }
+  
+  .toggle-button {
+    display: inline-block;
+    color: var(--texto);
+  }
+  
+  .hidden-number {
+    display: none;
+    font-size: 17px;
+    color: var(--texto);
+  }
+  
+  #carrosel_fundo {
+    background-color: rgba(73, 192, 220, 0.3);
+    width: 100%;
+    height: 650px;
+    margin: 70px 0px;
+  }
+  
+  .titulo {
+    margin-top: 15px;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    overflow: hidden;
+    border-radius: 30px;
+  }
+  
+  .carousel-inner img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-inner::after {
+    content: "";
+    position: absolute;
+    top: 425px;
+    left: 0;
+    width: 100%;
+    height: 10%;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 1;
+  }
+  
+  .texto_carrosel {
+    position: absolute;
+    color: white;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    text-align: center;
+    z-index: 3;
+  }
+  
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 5%;
+  }
+  
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 50%;
+    padding: 10px;
+  }
+  
+  .h4pdp {
+    display: flex;
+    border-left: 5px rgba(49, 87, 224, 0.9) solid;
+    height: 45px;
+  }
+  
+  .h4pdp2 {
+    display: flex;
+    margin-top: 8px;
+    margin-left: 5px;
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .ppdp {
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  
+  footer {
+    border-top: 1px rgba(73, 192, 220, 0.6) solid;
+  }
+  
+  #rodape {
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-right: 180px;
+  }
+  
+  #rodape a {
+    color: var(--texto);
+    text-decoration: none;
+  }
+  
+  .rd {
+    margin-right: 180px;
+  }
+  
+  .rp {
+    position: relative;
+    top: 10px;
+    left: 0;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .rp li {
+    padding: 5px;
+  }
+  
+  .fa-envelope {
+    font-size: 20px;
+    color: var(--texto);
+    margin-right: 10px;
+    align-items: center;
+  }
+  
+  #copyright p {
+    display: flex;
+    background-color: rgba(73, 192, 220, 0.1);
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+  }
+  
+  @media (max-width: 768px) {
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: 10%;
+    }
+  
+    .carousel-caption {
+      font-size: 0.8rem;
+    }
+  }
+  
