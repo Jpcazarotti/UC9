@@ -75,98 +75,56 @@
         <div id="BM_CAM" class="container">
           <div class="row justify-content-center">
             <div class="col-md-3 texto_banner_login">
-              <form class="row g-3 needs-validation" novalidate>
-                <div class="col-md-4">
-                  <label for="validationCustom01" class="form-label"
-                    >Primeiro Nome</label
-                  >
+              <form class="px-4 py-3">
+                <div class="mb-3">
+                  <label for="exampleFormEmail1" class="form-label label_email_senha">
+                    Email
+                  </label>
                   <input
-                    type="text"
+                    type="email"
                     class="form-control"
-                    id="validationCustom01"
-                    placeholder="Primeiro Nome"
-                    required
+                    id="exampleFormEmail1"
+                    placeholder="email@example.com"
                   />
-                  <div class="valid-feedback">Muito bem!</div>
                 </div>
-                <div class="col-md-4">
-                  <label for="validationCustom02" class="form-label"
-                    >Sobrenome</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="validationCustom02"
-                    placeholder="Sobrenome"
-                    required
-                  />
-                  <div class="valid-feedback">Muito bem!</div>
-                </div>
-                <div class="col-md-4">
-                  <label for="validationCustomUsername" class="form-label"
-                    >Usuário</label
-                  >
-                  <div class="input-group has-validation">
-                    <input
-                      type="text"
-                      class="form-control"
-                      id="validationCustomUsername"
-                      aria-describedby="inputGroupPrepend"
-                      placeholder="Usuário"
-                      required
-                    />
-                    <div class="invalid-feedback">
-                      Por favor, escolha um usuário.
-                    </div>
-                  </div>
-                </div>
-                <div>
-                  <label for="inputPassword5" class="form-label"
-                    >Password</label
-                  >
+                <div class="mb-3">
+                  <label for="exampleFormPassword1" class="form-label label_email_senha">
+                    Senha
+                  </label>
                   <input
                     type="password"
-                    id="inputPassword5"
                     class="form-control"
-                    aria-describedby="passwordHelpBlock"
-                    placeholder="Sua senha deve conter no mínimo 8 caracteres"
+                    id="exampleFormPassword1"
+                    placeholder="Senha"
                   />
                 </div>
-                <div>
-                  <label for="inputPassword5" class="form-label"
-                    >Password</label
-                  >
-                  <input
-                    type="password"
-                    id="inputPassword5"
-                    class="form-control"
-                    aria-describedby="passwordHelpBlock"
-                    placeholder="Sua senha deve conter no mínimo 8 caracteres"
-                  />
-                </div>
-                <div class="col-12">
+                <div class="mb-3">
                   <div class="form-check">
                     <input
-                      class="form-check-input"
                       type="checkbox"
-                      value=""
-                      id="invalidCheck"
-                      required
+                      class="form-check-input"
+                      id="dropdownCheck"
                     />
-                    <label class="form-check-label" for="invalidCheck">
-                      Aceite os Termos e Condições
+                    <label
+                      class="form-check-label lembrar_me"
+                      for="dropdownCheck"
+                    >
+                      Lembrar-me
                     </label>
-                    <div class="invalid-feedback">
-                      Você precisa aceitar antes de se cadastrar.
-                    </div>
                   </div>
                 </div>
-                <div class="col-12">
-                  <button class="btn btn-primary" type="submit">
-                    Cadastrar
-                  </button>
-                </div>
+                <button type="submit" class="btn btn-primary btnLogar">
+                  Logar
+                </button>
               </form>
+              <div id="txt_login">
+                <a class="dropdown-item txt_cadastre" href="#"
+                  >Novo aqui? Cadastre-se</a
+                >
+                <a class="dropdown-item txt_esqueciSenha" href="#"
+                  >Esqueceu a senha?</a
+                > 
+              </div>
             </div>
           </div>
         </div>
